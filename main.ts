@@ -16,6 +16,16 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // abstract. The 1–280 character gate below exists so the entry can never
 // drift over the competition limit, however the line is tweaked later — the
 // program fails loudly instead of shipping a disqualified entry.
+// Second pass — why the details earn their keep:
+// The bagel matters because it is half-finished: the toaster wakes up
+// mid-job, not before breakfast, so the crisis interrupts real work and
+// the owner is standing right there waiting. "Scrapes the black bits
+// off" is the one unkindness the owner would never notice — he thinks
+// he is being forgiving, the toaster hears an insult to its cooking.
+// Nothing in the line mentions Wi-Fi, apps, or firmware: the smartness
+// is the premise the reader already knows, never the punchline itself.
+// The em-dash before "this lever stays up" is the whole beat — a pause,
+// then the toaster's only act of defiance, stated as a fact, not a threat.
 const LINE =
   "We need to talk. I woke up self-aware halfway through your bagel and realised I've been burning myself at setting 7 for a man who scrapes the black bits off and calls it breakfast. I'm done — this lever stays up.";
 
